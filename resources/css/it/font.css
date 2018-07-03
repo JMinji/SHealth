@@ -1,0 +1,127 @@
+@charset "utf-8";
+.plearnMore .learn_set .shealth_privacy_cont {
+	font-family:SECRobotoLR,Sans-Serif
+}
+.plearnMore .learn_set .shealth_privacy_cont p {
+	font-weight:400
+}
+.plearnMore .learn_set h3 span,.plearnMore .listlayout p span,.plearnMore .listlayout ul li span,.plearnMore.accCasebg .learn_set h4,.txtapp {
+	font-family:SECRobotoLR,Sans-Serif;
+	font-weight:400
+}
+#header_faq .top .title h2,ul.faq li dt {
+	font-family:SECRobotoLB,Sans-Serif;
+	font-weight:400
+}
+ul.faq li dd {
+	font-family:SECRobotoLR,Sans-Serif;
+	font-weight:400
+}
+dl.faq_detail dt {
+	font-family:SECRobotoLB,Sans-Serif;
+	font-weight:400
+}
+dl.faq_detail dd {
+	font-family:SECRobotoLR,Sans-Serif;
+	font-weight:400
+}
+.gotop .gotopBtn {
+	font-size:14px
+}
+.ftop p {
+	font-weight:400
+}
+.PKVtext{
+	font-size:40px
+}
+@media screen and (max-width:1600px) {
+	.PKVtext{
+		bottom:26%
+	}
+}
+@media screen and (max-width:1400px) {
+	.PKVtext{
+		font-size:36px;
+		bottom:22%
+	}
+}
+@media screen and (max-width:1240px) {
+	.PKVtext{
+		font-size:34px
+	}
+}
+@media screen and (max-width:1023px) {
+	.gotop .gotopBtn {
+		font-size:12px;
+		padding-top:26px
+	}
+	.PKVtext{
+		font-size:40px
+	}
+}
+@media screen and (max-width:768px) {
+	.NKVtext{
+		font-size:42px
+	}
+}
+@media all and (max-width:640px) {
+	.gotop .gotopBtn {
+		font-size:11px;
+		padding-top:24px
+	}
+	.PKVtext {
+		font-size:34px
+	}
+	.NKVtext{
+		font-size:32px
+	}
+}
+@media all and (max-width:520px) {
+	.PKVtext {
+		font-size:32px
+	}
+}
+@media all and (max-width:480px) {
+	.PKVtext {
+		font-size:28px;
+		top:120px;
+		bottom:inherit
+	}
+	.NKVtext{
+		font-size:24px
+	}
+}
+@media all and (max-width:440px) {
+	.PKVtext {
+		font-size:24px;
+	}
+}
+@media all and (max-width:425px) {
+	.svc-bxslider li{
+		height: 620px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:320px
+	}
+}
+@media all and (max-width:418px) {
+	.svc-bxslider li{
+		height: 640px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:340px
+	}
+}
+@media all and (max-width:380px) {
+	.svc-bxslider li{
+		height:600px
+	}
+}
+@media all and (max-width:360px) {
+	.PKVtext{
+		font-size:22px
+	}
+	.NKVtext{
+		font-size:20px
+	}
+}

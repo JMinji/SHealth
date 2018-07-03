@@ -1,0 +1,280 @@
+/* CSS Document */
+.KVarea{
+	position:relative;
+}
+.conInner{
+	width:1203px;
+	margin:0 auto;
+	height:inherit;
+	position:relative;
+	padding-top:60px;
+}
+.KVtext{
+	font-size:50px;
+	position:absolute;
+	top:29.55%;
+	left:45%;
+	color:#222;
+	line-height:1.2em;
+	font-weight:normal;
+}
+.KVtext .bold{
+	font-weight:bolder;
+	letter-spacing:inherit;
+}
+.devSite{
+	display: block;
+	color: #fff;
+	background: #ff8b64;
+	font-size: 22px;
+	font-weight: normal;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	padding: 17px 40px 14px;
+	position: absolute;
+	left: 45.3%;
+	top: 59.88%;
+}
+.conInner h3{
+	font-family:"SamsungOne700",Arial;
+	font-size:40px;
+	color:#222;
+	padding-bottom:15px;
+	border-bottom:1px solid #ccc;
+}
+.conInner p{
+	color:#999;
+	font-size:16px;
+	padding-top:10px;
+	line-height:1.5em;
+}
+.listArea{
+	padding-top:60px;
+}
+.listArea p{
+	color:#999;
+	font-size:16px;
+	padding-left:12px;
+	line-height:1.5em;
+}
+.listArea ul{
+	overflow:hidden;
+	text-align:center;
+}
+.listArea li{
+	float:left;
+	width:15%;
+	margin-right:6%;
+	height:180px;
+}
+.listArea li:nth-child(5n){
+	margin-right:0;
+}
+.listArea li img{
+	width:95px;
+}
+.listArea li span{
+	display:block;
+	color:#666;
+	font-size:13px;
+	margin-top:15px;
+}
+.gotop .gotopBtn{
+	color:#bbb;
+}
+
+@media screen and (max-width: 1800px) {
+.KVtext {
+	top: 26%;
+	font-size: 48px;
+}
+}
+
+@media screen and (max-width: 1600px) {
+.KVtext {
+	top: 24%;
+	font-size: 45px;
+}
+.devSite{
+		font-size: 20px;
+		top: 60%;
+}
+}
+
+@media screen and (max-width: 1500px) {
+.devSite{
+	padding:13px 35px;
+	top:61%;
+}
+}
+
+@media screen and (max-width: 1400px) {
+.KVtext {
+	top: 22%;
+	font-size: 40px;
+}
+.devSite{
+	font-size:18px;
+	top: 59%;
+}
+.conInner{
+	padding:40px 0 80px;
+}
+.conInner h3{
+	font-size:30px;
+}
+.listArea{
+	padding-top:40px;
+}
+}
+		
+@media screen and (max-width: 1240px) {
+.KVtext {
+	top:20%;
+	font-size:38px;
+}
+.devSite{
+	padding:10px 32px;
+}
+}
+
+@media screen and (max-width:1220px){	
+.KVtext{
+	top: 18%;
+}
+.devSite{
+	font-size: 16px;
+}
+.conInner{
+	width:96%;
+	margin:0 2%;
+}
+.listArea li{
+	width:14%;
+	margin-right:7.5%;
+	height:210px;
+}
+.listArea li img{
+	width:80%;
+}
+}
+
+@media screen and (max-width: 1100px) {
+.devSite{
+	top: 60%;
+}
+}
+@media screen and (max-width:1023px){	
+.KVarea{
+	background: url(../img/partnersKV2.jpg) 70% 0 no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 774px;
+}
+.KVarea img{
+	display:none;
+}
+.KVtext{
+	top: 280px;
+	font-size: 58px;
+	text-align: center;
+	left: 50%;
+	margin-left: -202px;
+}
+.devSite{
+	top: 510px;
+	font-size: 22px;
+	left: 50%;
+	margin-left: -84px;
+}
+.conInner h3{
+	font-size:36px;
+}
+.listArea li{
+	height:190px;
+}
+.listArea li img{
+	width:85%;
+}
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width:640px){	
+.KVarea {
+		height: 600px;
+		background-position: 75% 0;
+}
+.KVtext {
+		top: 230px;
+		font-size: 36px;
+		margin-left: -125px;
+}
+.devSite{
+		top: 370px;
+		font-size: 14px;
+		margin-left: -57.5px;
+		padding: 10px 25px 8px;
+		border:1px solid #fff;
+}
+.conInner{
+	width:92%;
+	margin:0 4%;
+	padding:30px 0 60px;
+}
+.conInner h3{
+	font-size:30px;
+	padding-bottom:10px;
+}
+.conInner p{
+	font-size:14px;
+	padding-top:5px;
+}
+.listArea{
+	padding-top:30px;
+}
+.listArea li{
+	width:28%;
+	margin-right:8%;
+	height:210px;
+}
+.listArea li:nth-child(5n){
+	margin-right:8%;
+}
+.listArea li:nth-child(3n), .listArea li:nth-child(15n){
+	margin-right:0;
+}
+.listArea p{
+	font-size:14px;
+	margin-bottom:25px;
+}
+}
+
+@media screen and (max-width:560px){
+.listArea li{
+	height:190px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.KVarea {
+		height: 400px;
+}
+.KVtext{
+		font-size: 30px;
+		margin-left: -103.5px;
+		top: 130px;
+}
+.devSite{
+	top:250px;
+	padding: 10px 26px 8px;
+  margin-left: -58.5px;
+}
+.conInner h3{
+	font-size:26px;
+}
+.listArea li{
+	height:170px;
+}
+}

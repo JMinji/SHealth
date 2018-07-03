@@ -1,0 +1,142 @@
+@charset "utf-8";
+#header_faq .top .title h2,*,.plearnMore .learn_set .shealth_privacy_cont,.plearnMore .learn_set h3 span,.plearnMore .listlayout p span,.plearnMore .listlayout ul li span,.plearnMore.accCasebg .learn_set h4,.txtapp,dl.faq_detail dd,dl.faq_detail dt,nav li a,ul.faq li dd,ul.faq li dt {
+	font-family:"Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",Osaka,Meiryo,"メイリオ","MS PGothic","ＭＳ Ｐゴシック",Sans-Serif
+}
+.svc-cont.cont-top-area h3, .NKVtext,.PKVtext p{
+	font-family:inherit
+}
+.plearnMore .learn_set .shealth_privacy_cont p {
+	font-weight:400
+}
+.txtapp {
+	font-weight:300
+}
+.plearnMore .learn_set h3 div {
+	padding:12px 5px 1px
+}
+.plearnMore .learn_set h3 div.tabch {
+	padding:10px 5px 3px
+}
+.plearnMore .learn_set h3 span {
+	font-weight:400
+}
+.plearnMore .learn_set h3 span strong {
+	font-weight:500;
+	line-height:120%
+}
+.plearnMore .listlayout p span,.plearnMore .listlayout ul li span,.plearnMore.accCasebg .learn_set h4 {
+	font-weight:400
+}
+#header_faq .top .title h2,ul.faq li dt {
+	font-weight:700
+}
+ul.faq li dd {
+	font-weight:400
+}
+dl.faq_detail dt {
+	font-weight:700
+}
+dl.faq_detail dd {
+	font-weight:400
+}
+.headerInner h1 a {
+	width:156px
+}
+.svc-cont h3{
+	letter-spacing:-2px
+}
+.svc-cont p{
+	line-height:1.6em
+}
+.svc-bxslider .slider-cont dt, .svc-bxslider .slider-cont dt p, .svc-bxslider .slider-cont dd{
+	font-weight:400
+}
+.down-btn{
+    width: 200px;
+	font-weight:400
+}
+@media screen and (max-width:1023px) {
+	.headerInner h1 {
+		margin-left:-78px
+	}
+	.down-btn {
+		width: 280px
+	}
+}
+@media all and (max-width:662px) {
+	.svc-bxslider .slider-cont dd {
+    	font-size: 23px
+	}
+}
+@media all and (max-width:640px) {
+	.down-btn{
+		width: 200px
+	}
+	.svc-bxslider .slider-cont dd {
+    	font-size: 18px
+	}
+	.PKVtext {
+		font-size:36px
+	}
+}
+@media all and (max-width:520px) {
+	.PKVtext {
+		font-size:32px
+	}
+}
+@media all and (max-width:501px) {
+	.svc-bxslider li {
+		height: 710px;
+		padding-bottom: 330px;
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:330px
+	}
+}
+@media all and (max-width:480px) {
+	.headerInner h1 {
+		margin-left:-52px
+	}
+	.headerInner h1 a {
+		width:104px
+	}
+	.svc-bxslider li {
+		height: 610px;
+		padding-bottom:300px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:300px
+	}
+	.svc-bxslider .slider-cont dd {
+    	font-size: 16px
+	}
+	.PKVtext {
+		font-size:30px;
+		top:120px;
+		bottom:inherit
+	}
+}
+@media all and (max-width:440px) {
+	.PKVtext {
+		font-size:28px
+	}
+}
+@media all and (max-width:400px) {
+	.PKVtext {
+		font-size:24px
+	}
+}
+@media all and (max-width:380px) {
+	.svc-bxslider li {
+		height: 560px;
+		padding-bottom:300px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:300px
+	}
+}
+@media all and (max-width:360px) {
+	.PKVtext {
+		font-size:22px
+	}
+}

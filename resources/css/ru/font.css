@@ -1,0 +1,162 @@
+@charset "utf-8";
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video{
+	letter-spacing:-1px
+}
+.KVtext p,.bxslider .copyArea .copyTit,.PKVtext p,.NKVtext {
+	font-family:SamsungOne700,'SamsungOne700'
+}
+.plearnMore .learn_set .shealth_privacy_cont,.txtapp {
+	font-family:SECRobotoLR,Sans-Serif
+}
+.plearnMore .learn_set .shealth_privacy_cont p {
+	font-weight:400
+}
+.plearnMore .learn_set h3 span,.plearnMore .listlayout p span,.plearnMore .listlayout ul li span,.plearnMore.accCasebg .learn_set h4 {
+	font-family:SECRobotoLR,Sans-Serif;
+	font-weight:400
+}
+#header_faq .top .title h2,ul.faq li dt {
+	font-family:SECRobotoLB,Sans-Serif;
+	font-weight:400
+}
+ul.faq li dd {
+	font-family:SECRobotoLR,Sans-Serif;
+	font-weight:400
+}
+dl.faq_detail dt {
+	font-family:SECRobotoLB,Sans-Serif;
+	font-weight:400
+}
+dl.faq_detail dd {
+	font-family:SECRobotoLR,Sans-Serif;
+	font-weight:400
+}
+.PKVtext {
+	font-size:40px
+}
+.down-btn{
+	width:200px
+}
+.svc-bxslider .slider-cont{
+	padding-left:14%
+}
+.svc-bxslider .slider-cont dt{
+	line-height:1em;
+	margin-bottom:15px
+}
+@media all and (min-width:1920px) {
+	.svc-bxslider .slider-cont{
+		padding-left:0;
+		margin-left:-680px
+	}
+}
+@media all and (max-width:1600px) {
+	.svc-bxslider .slider-cont{
+		padding-left:12%
+	}
+	.PKVtext {
+		bottom:26%
+	}
+}
+@media all and (max-width:1400px) {
+	.PKVtext {
+		font-size:36px;
+		bottom:22%
+	}
+}
+@media all and (max-width:1240px) {
+	.svc-bxslider .slider-cont{
+		padding-left:0
+	}
+	.svc-bxslider .slider-cont dd{
+		font-size:22px
+	}
+	.PKVtext {
+		font-size:34px
+	}
+}
+@media all and (max-width:1023px) {
+	.svc-bxslider li{
+		height:926px
+	}
+	.svc-bxslider .slider-cont{
+		padding:0 2%
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:430px
+	}
+	.svc-bxslider .slider-cont dd{
+		font-size:22px
+	}
+	.down-btn{
+		width:280px
+	}
+	.PKVtext {
+		font-size:40px
+	}
+}
+@media all and (max-width:640px) {
+	.svc-bxslider li{
+		height:710px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:330px
+	}
+	.svc-bxslider .slider-cont dd{
+		font-size:17px
+	}
+	.down-btn{
+		width:200px
+	}
+	.PKVtext {
+		font-size:34px
+	}
+}
+@media all and (max-width:480px) {
+	.svc-bxslider li{
+		height:600px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:300px
+	}
+	.svc-bxslider .slider-cont dd{
+		font-size:15px
+	}
+	.PKVtext {
+		font-size:30px
+	}
+}
+@media all and (max-width:440px) {
+	.PKVtext {
+		font-size:28px
+	}
+}
+@media all and (max-width:400px) {
+	.svc-bxslider li{
+		height:625px;
+		padding-bottom:325px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:325px
+	}
+	.PKVtext {
+		font-size:24px
+	}
+}
+@media all and (max-width:380px) {
+	.svc-bxslider li{
+		height:590px;
+		padding-bottom:330px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:330px
+	}	
+}
+@media all and (max-width:360px) {
+	.PKVtext {
+		font-size:22px
+	}
+	.NKVtext {
+		font-size:28px
+	}
+}

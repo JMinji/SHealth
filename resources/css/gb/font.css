@@ -1,0 +1,123 @@
+@charset "utf-8";
+.plearnMore .learn_set .shealth_privacy_cont {
+	font-family:SECRobotoLR,Sans-Serif
+}
+.plearnMore .learn_set .shealth_privacy_cont p {
+	font-weight:400
+}
+.plearnMore .learn_set h3 span,.plearnMore .listlayout p span,.plearnMore .listlayout ul li span {
+	font-family:SECRobotoLR,Sans-Serif;
+	font-weight:400
+}
+#header_faq .top .title h2,ul.faq li dt {
+	font-family:SECRobotoLB,Sans-Serif;
+	font-weight:400
+}
+ul.faq li dd {
+	font-family:SECRobotoLR,Sans-Serif;
+	font-weight:400
+}
+dl.faq_detail dt {
+	font-family:SECRobotoLB,Sans-Serif;
+	font-weight:400
+}
+dl.faq_detail dd {
+	font-family:SECRobotoLR,Sans-Serif;
+	font-weight:400
+}
+.PKVtext {
+	bottom:25%
+}
+@media all and (max-width:1600px) {
+	.svc-bxslider .slider-cont{
+		padding-left:12%
+	}
+	.PKVtext {
+		bottom:20%
+	}
+}
+@media all and (max-width:1240px) {
+	.svc-bxslider .slider-cont{
+		padding-left:0
+	}
+	.svc-bxslider .slider-cont dd{
+		font-size:22px
+	}
+}
+@media all and (max-width:1023px) {
+	.svc-bxslider li{
+		height:926px
+	}
+	.svc-bxslider .slider-cont{
+		padding:0 2%
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:430px
+	}
+	.svc-bxslider .slider-cont dd{
+		font-size:22px
+	}
+}
+@media all and (max-width:640px) {
+	.svc-bxslider li{
+		height:710px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:330px
+	}
+	.svc-bxslider .slider-cont dd{
+		font-size:17px
+	}
+}
+@media all and (max-width:580px) {
+	.NKVtext {
+		font-size:36px
+	}
+}
+@media all and (max-width:480px) {
+	.svc-bxslider li{
+		height:600px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:300px
+	}
+	.svc-bxslider .slider-cont dd{
+		font-size:15px
+	}
+	.PKVtext {
+		font-size:32px
+	}
+	.NKVtext {
+		font-size:32px
+	}
+}
+@media all and (max-width:440px) {
+	.NKVtext {
+		font-size:28px
+	}
+}
+@media all and (max-width:381px) {
+	.PKVtext {
+		font-size:28px
+	}
+	.NKVtext {
+		font-size:24px
+	}
+}
+@media all and (max-width:380px) {
+	.svc-bxslider li{
+		height:590px;
+		padding-bottom:330px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:330px
+	}	
+}
+@media all and (max-width:360px) {
+	.PKVtext {
+		font-size:24px
+	}
+	.NKVtext {
+		font-size: 22px
+	}
+}
