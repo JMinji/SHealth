@@ -1,0 +1,313 @@
+.KVarea,.conInner {
+	position:relative
+}
+.KVarea img {
+	width:100%
+}
+.conInner {
+	width:1203px;
+	margin:0 auto;
+	height:inherit;
+	padding:60px 0 80px
+}
+.PKVtext {
+	font-size:44px;
+	position:absolute;
+	left:21%;
+	bottom:30%;
+	color:#222;
+	line-height:1.2em
+}
+.PKVtext p {
+	font-family:SamsungSans,SamsungSans
+}
+.devSite {
+	display:inline-block;
+	color:#fff;
+	background:#ff8b64;
+	font-size:16px;
+	border-radius:8px;
+	padding:12px 30px 10px;
+	margin-top:20px
+}
+.conInner h3 {
+	font-size:36px;
+	color:#000;
+	padding-bottom:15px;
+	margin-bottom:8px;
+	border-bottom:1px solid #ccc
+}
+.conInner p,.listArea p {
+	color:#999;
+	font-size:16px
+}
+.conInner p {
+	padding-top:10px;
+	line-height:1.2em
+}
+.conInner .iOSdisc{
+	font-size:14px;
+	margin-left:15px;
+	padding-top:12px
+}
+.conInner .iOSdisc:before{
+	content:"!";
+	display:inline-block;
+	font-size:12px;
+	text-align:center;
+	line-height:15px;
+	width:15px;
+	height:15px;
+	border:1px solid #cacaca;
+	border-radius:50%;
+	vertical-align:text-bottom;
+	margin-right:5px;
+	color:#abadb3
+}
+.tabArea{
+	margin-top:20px
+}
+.tabArea ul{
+	overflow:hidden;
+	width:354px;
+	font-size:18px;
+	text-align:center;
+	border-radius:9px;
+	border:1px solid #999999
+}
+.tabArea li{
+	float:left;
+	width:118px
+}
+.tabArea li a{
+	height:42px;
+	line-height:42px;
+	display:block;
+	color:#999999;
+	border-radius:7px
+}
+.tabArea li a.on{
+	color:#fff;
+	background:#999999;
+	font-weight:bold
+}
+.listArea {
+	padding-top:50px
+}
+.listArea p {
+	padding-left:12px;
+	line-height:1.5em
+}
+.listArea ul {
+	overflow:hidden;
+	text-align:center
+}
+.listArea li {
+	float:left;
+	width:15%;
+	margin:0 2.5%;
+	height:180px
+}
+.listArea li img {
+	width:95px
+}
+.listArea li span {
+	display:block;
+	color:#666;
+	font-size:15px;
+	padding-top:15px;
+	font-weight:400
+}
+@media screen and (max-width:1600px) {
+	.PKVtext {
+		font-size:40px
+	}
+}
+@media screen and (max-width:1400px) {
+	.PKVtext {
+		font-size:36px
+	}
+	.conInner {
+		padding:40px 0 80px
+	}
+	.conInner h3 {
+		font-size:30px
+	}
+	.listArea {
+		padding-top:40px
+	}
+}
+@media screen and (max-width:1240px) {
+	.PKVtext {
+		font-size:34px;
+		bottom:28%
+	}
+	.devSite {
+		font-size:16px;
+		padding:10px 22px;
+		margin-top:10px
+	}
+}
+@media screen and (max-width:1220px) {
+	.conInner {
+		width:94%;
+		margin:0 3%
+	}
+	.listArea li {
+		width:14%;
+		margin:0 3%;
+		height:210px
+	}
+	.listArea li img {
+		width:80%
+	}
+}
+@media screen and (max-width:1023px) {
+	.KVarea {
+		background:url(../img/partnersKV_m.jpg) right top no-repeat;
+		background-size:cover;
+		width:100%;
+		height:774px
+	}
+	.KVarea img {
+		display:none
+	}
+	.PKVtext {
+		top:280px;
+		font-size:50px;
+		position:relative;
+		left:10%;
+		width:90%
+	}
+	.devSite {
+		font-size:20px
+	}
+	.conInner h3 {
+		font-size:36px
+	}
+	.listArea li {
+		height:190px
+	}
+	.tabArea ul{
+		width:450px;
+		font-size:16px
+	}
+	.tabArea li{
+		width:150px
+	}
+	.tabArea li a{
+		height:40px;
+		line-height:40px
+	}
+}
+@media screen and (max-width:768px) {
+	.PKVtext {
+		font-size:44px
+	}
+}
+@media screen and (max-width:640px) {
+	.KVarea {
+		height:600px
+	}
+	.PKVtext {
+		top:200px;
+		left:6%;
+		font-size:40px
+	}
+	.devSite {
+		font-size:18px;
+		padding:10px 19px 8px;
+		border:1px solid #fff
+	}
+	.conInner {
+		width:90%;
+		margin:0 5%;
+		padding:30px 0 60px
+	}
+	.conInner h3 {
+		font-size:30px;
+		padding-bottom:10px
+	}
+	.conInner p {
+		font-size:14px;
+		padding-top:5px
+	}
+	.listArea {
+		padding-top:30px
+	}
+	.listArea li {
+		width:25%;
+		margin:0 4%;
+		height:210px
+	}
+	.listArea p {
+		font-size:14px;
+		margin-bottom:25px
+	}
+	.tabArea ul{
+		width:100%;
+		font-size:14px;
+		border-radius:7px
+	}
+	.tabArea li{
+		width:33.33%
+	}
+	.tabArea li a{
+		height:30px;
+		line-height:32px;
+		border-radius:5px
+	}
+}
+@media screen and (max-width:560px) {
+	.listArea li {
+		height:190px
+	}
+}
+@media screen and (max-width:480px) {
+	.KVarea {
+		height:400px
+	}
+	.PKVtext {
+		font-size:32px;
+		top:110px
+	}
+	.devSite {
+		font-size:16px
+	}
+	.conInner h3 {
+		font-size:26px
+	}
+	.listArea li {
+		height:170px
+	}
+}
+@media screen and (max-width:360px) {
+	.PKVtext {
+		font-size:28px;
+		top:110px
+	}
+	.devSite {
+		font-size:14px
+	}
+}
+.listArea li.accessary img {
+	width:140px
+}
+@media screen and (max-width:1220px) {
+	.listArea li.accessary {
+		width:16.5%;
+		margin:0 1.75%
+	}
+	.listArea li.accessary img {
+		width:100%
+	}
+	.listArea li.accessary span {
+		margin-top:3%
+	}
+}
+@media screen and (max-width:640px) {
+	.listArea li.accessary {
+		width:29.5%;
+		margin: 0 1.75%
+	}
+}

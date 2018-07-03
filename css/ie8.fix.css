@@ -1,0 +1,60 @@
+/*
+.bxPager a {
+    background: 0 0;
+    background-size: 100%;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/img/bgPagerOff.png', sizingMethod='scale')";
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/img/bgPagerOff.png', sizingMethod='scale')"
+}
+
+.bxPager .healthTab.active {
+    background: 0 0;
+    background-size: 100%;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/img/bgPager0.png', sizingMethod='scale')";
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/img/bgPager0.png', sizingMethod='scale')"
+}
+
+.bxPager .togetherTab.active {
+    background: 0 0;
+    background-size: 100%;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/img/bgPager1.png', sizingMethod='scale')";
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/img/bgPager1.png', sizingMethod='scale')"
+}
+
+.bxPager .newsTab.active {
+    background: 0 0;
+    background-size: 100%;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/img/bgPager2.png', sizingMethod='scale')";
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/img/bgPager2.png', sizingMethod='scale')"
+}
+
+.bxPager .knoxTab.active {
+    background: 0 0;
+    background-size: 100%;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/img/bgPager3.png', sizingMethod='scale')";
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/img/bgPager3.png', sizingMethod='scale')"
+}
+*/
+.bxPager a {
+    background-color: #fff;
+}
+.bx-wrapper .bx-prev {
+    background: 0 0;
+    background-size: 100%;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/img/prev_v02.png', sizingMethod='scale')";
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/img/prev_v02.png', sizingMethod='scale')"
+}
+
+.bx-wrapper .bx-next {
+    background: 0 0;
+    background-size: 100%;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/img/next_v02.png', sizingMethod='scale')";
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resources/img/next_v02.png', sizingMethod='scale')"
+}
+/*
+@media screen and (max-width: 1023px) {
+    .sticky {
+        background: #000;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)
+    }
+}
+*/

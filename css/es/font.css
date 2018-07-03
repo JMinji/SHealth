@@ -1,0 +1,139 @@
+@charset "utf-8";
+.plearnMore .learn_set .shealth_privacy_cont,.txtapp {
+	font-family:SECRobotoLR,Sans-Serif
+}
+.plearnMore .learn_set .shealth_privacy_cont p {
+	font-weight:400
+}
+.plearnMore .learn_set h3 span,.plearnMore .listlayout p span,.plearnMore .listlayout ul li span {
+	font-family:SECRobotoLR,Sans-Serif;
+	font-weight:400
+}
+#header_faq .top .title h2,ul.faq li dt {
+	font-family:SECRobotoLB,Sans-Serif;
+	font-weight:400
+}
+ul.faq li dd {
+	font-family:SECRobotoLR,Sans-Serif;
+	font-weight:400
+}
+dl.faq_detail dt {
+	font-family:SECRobotoLB,Sans-Serif;
+	font-weight:400
+}
+dl.faq_detail dd {
+	font-family:SECRobotoLR,Sans-Serif;
+	font-weight:400
+}
+.ftop p {
+	font-weight:400
+}
+.PKVtext {
+	font-size:40px
+}
+.NKVtext {
+	bottom:30%
+}
+@media screen and (max-width:1600px) {
+	.PKVtext {
+		bottom:26%
+	}
+}
+@media screen and (max-width:1400px) {
+	.PKVtext {
+		font-size:36px;
+		bottom:22%
+	}
+}
+@media screen and (max-width:1240px) {
+	.PKVtext {
+		font-size:34px
+	}
+}
+@media all and (max-width:1023px) {
+	.PKVtext {
+		font-size:40px
+	}
+}
+@media all and (max-width:719px) {
+	.svc-bxslider li{
+		height:926px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:430px
+	}
+}
+@media all and (max-width:640px) {
+	.svc-bxslider li{
+		height:680px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:300px
+	}
+	.PKVtext {
+		font-size:34px
+	}
+}
+@media all and (max-width:544px) {
+	.svc-bxslider li{
+		height:700px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:320px
+	}
+}
+@media all and (max-width:540px) {
+	.PKVtext {
+		font-size:30px
+	}
+}
+@media all and (max-width:480px) {
+	.svc-bxslider li{
+		height:600px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:300px
+	}
+	.PKVtext {
+		font-size:26px
+	}
+}
+@media all and (max-width:440px) {
+	.PKVtext {
+		font-size:24px
+	}
+}
+@media all and (max-width:400px) {
+	.PKVtext {
+		font-size:22px
+	}
+}
+@media all and (max-width:387px) {
+	.svc-bxslider li{
+		height:630px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:330px
+	}
+}
+@media all and (max-width:385px) {
+	.svc-bxslider li{
+		height:655px
+	}
+	.bx-wrapper img.banner-ss-mob{
+		bottom:355px
+	}
+}
+@media all and (max-width:380px) {
+	.svc-bxslider li{
+		height:615px
+	}
+}
+@media all and (max-width:360px) {
+	.PKVtext {
+		font-size:20px
+	}
+	.NKVtext {
+		font-size:30px
+	}
+}

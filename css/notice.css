@@ -1,0 +1,305 @@
+.KVarea,.conInner {
+	position:relative
+}
+.KVarea img {
+	width:100%
+}
+.conInner {
+	width:1203px;
+	margin:0 auto;
+	height:inherit;
+	padding:60px 0 95px
+}
+.NKVtext {
+	font-family:SamsungSans,'SamsungSans';
+	font-size:44px;
+	position:absolute;
+	bottom:40.5%;
+	left:21%;
+	color:#222;
+	line-height:1.2em
+}
+.eventArea,.noticeArea {
+	padding-bottom:45px;
+	position:relative
+}
+a.moreBtn {
+	width:180px;
+	display:block;
+	margin:30px auto 0;
+	background:#c8c8c8;
+	padding:15px 0 13px;
+	border-radius:8px;
+	font-size:22px;
+	color:#fff;
+	text-align:center
+}
+.eventArea h3,.noticeArea h3 {
+	color:#000;
+	font-size:36px;
+	padding-bottom:15px;
+	border-bottom:1px solid #ccc;
+	margin-bottom:8px
+}
+.eventArea p,.noticeArea p {
+	font-size:16px;
+	color:#999;
+	padding-top:10px
+}
+.eventArea ul,.noticeArea ul {
+	overflow:hidden;
+	padding-top:40px
+}
+.eventArea li,.noticeArea li {
+	float:left;
+	width:32%;
+	margin-right:2%;
+	margin-bottom:35px
+}
+.eventArea li a,.noticeArea li a {
+	display:block;
+	border:1px solid #e8e8e8
+}
+.eventArea li a:hover,.noticeArea li a:hover {
+	border:1px solid #ade864
+}
+.eventArea li.list3n,.eventArea li:nth-child(3n),.noticeArea li.list3n,.noticeArea li:nth-child(3n) {
+	margin-right:0
+}
+.eventArea li img,.noticeArea li img {
+	width:100%
+}
+.eventArea li p,.noticeArea dl {
+	position:relative;
+	padding:40px 15px 25px;
+	text-align:center;
+	height:120px
+}
+.eventArea li .event_title,.noticeArea dt {
+	font-size:26px;
+	font-weight:400;
+	color:#3e3e3e;
+	line-height:1.4em;
+	display:block;
+	max-height:70px;
+	overflow:hidden
+}
+.noticeArea dd {
+	font-size:16px;
+	font-weight:400;
+	color:#666;
+	line-height:1.1em;
+	margin-top:5px
+}
+.eventArea li .event_term,.noticeArea span {
+	color:#ababab;
+	font-weight:400;
+	display:block;
+	margin-top:15px
+}
+.eventArea {
+	margin-top:55px
+}
+.event_end .end_btn{
+	display:inline-block;
+	margin-left:10px;
+	background:#626164;
+	width:48px;
+	height:22px;
+	border-radius:6px;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	line-height:22px
+}
+.eventArea li.event_end a:hover {
+	border:1px solid #ccc
+}
+/* 170816 iOS 버전 런칭 OS_type 추가 */
+.OS_type{
+	display:block;
+	width:100%;
+	height:32px;
+	background:#eeeeee;
+	font-size:16px;
+	text-align:center;
+	line-height:34px;
+	color:#6b6b6b
+}
+
+@media screen and (max-width:1600px) {
+	.NKVtext {
+		font-size:40px
+	}
+}
+@media screen and (max-width:1400px) {
+	.NKVtext {
+		font-size:36px
+	}
+	.conInner {
+		padding:40px 0 80px
+	}
+	.eventArea h3,.noticeArea h3 {
+		font-size:30px
+	}
+	.eventArea li .event_title,.noticeArea dt {
+		font-size:22px;
+		max-height:48px
+	}
+	a.moreBtn {
+		font-size:20px
+	}
+}
+@media screen and (max-width:1240px) {
+	.NKVtext {
+		font-size:34px
+	}
+}
+@media screen and (max-width:1220px) {
+	.conInner {
+		width:96%;
+		margin:0 2%
+	}
+	.eventArea ul,.noticeArea ul {
+		padding-top:20px
+	}
+}
+@media screen and (max-width:1023px) {
+	.KVarea {
+		background:url("../img/noticeKV_m.jpg") right top no-repeat;
+		background-size:cover;
+		width:100%;
+		height:774px
+	}
+	.KVarea img {
+		display:none
+	}
+	.NKVtext {
+		top:280px;
+		font-size:50px;
+		position:relative;
+		left:10%;
+		width:90%
+	}
+	.conInner h3 {
+		font-size:36px
+	}
+	.eventArea, .noticeArea{
+		padding-bottom:30px
+	}
+	.eventArea li p, .noticeArea dl{
+		height:105px;
+		padding:35px 10px 25px
+	}
+	.eventArea li .event_title, .noticeArea dt{
+		font-size:20px;
+		max-height:46px
+	}
+	.noticeArea dd {
+		font-size:14px;
+		margin-top:5px
+	}
+	.eventArea li .event_term, .noticeArea span{
+		font-size:14px;
+		margin-top:15px
+	}
+	.event_end .end_btn{
+		display:block;
+		margin:5px auto 0
+	}
+	a.moreBtn{
+		margin:20px auto 0
+	}
+}
+@media screen and (max-width:768px) {
+	.NKVtext {
+		font-size:44px
+	}
+}
+@media screen and (max-width:640px) {
+	.KVarea {
+		height:600px
+	}
+	.NKVtext {
+		top:200px;
+		left:6%;
+		font-size:40px
+	}
+	.conInner {
+		width:92%;
+		margin:0 4%;
+		padding:30px 0 60px
+	}
+	.conInner h3 {
+		font-size:30px;
+		padding-bottom:10px
+	}
+	.eventArea p,.noticeArea p {
+		font-size:14px;
+		padding-top:5px
+	}
+	.eventArea ul,.noticeArea ul {
+		overflow:none
+	}
+	.eventArea li,.noticeArea li {
+		float:none;
+		width:100%;
+		height:auto;
+		margin-right:0;
+		margin-bottom:20px
+	}
+	.eventArea li a:hover,.noticeArea li a:hover, .eventArea li.event_end a:hover{
+		border-color:#e8e8e8
+	}
+	.noticeArea dl{
+		height:auto;
+		padding:40px 20px 30px
+	}
+	.eventArea li p{
+		height:auto;
+		padding:30px 10px 45px
+	}
+	.eventArea li .event_title,.noticeArea dt {
+		font-size:18px;
+		max-height:none
+	}
+	.event_end .end_btn{
+		display:inline-block;
+		margin-top:0;
+		margin-left:10px
+	}
+	.eventArea {
+		margin-top:40px
+	}
+	.OS_type{
+		height:25px;
+		font-size:12px;
+		line-height:28px
+	}
+}
+@media screen and (max-width:480px) {
+	.KVarea {
+		height:400px
+	}
+	.NKVtext {
+		font-size:32px;
+		top:110px
+	}
+	.conInner h3 {
+		font-size: 26px
+	}
+	.noticeArea dl{
+		padding:30px 20px 20px
+	}
+	.eventArea li p{
+		padding:25px 10px 35px
+	}
+	.event_end .end_btn{
+		font-size:12px
+	}
+	a.moreBtn {
+		font-size:16px;
+		width:120px;
+		padding:12px 0 10px
+	}
+}

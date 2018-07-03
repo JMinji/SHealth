@@ -1,0 +1,97 @@
+html, body {
+	height: 100%;
+}
+
+.logoArea {
+	font-family: SECRobotoLR, Sans-Serif, Arial;
+	background: #fff;
+	height: 52%;
+	position: relative;
+}
+
+.logo_inner {
+	width: 320px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -160px;
+}
+
+.logoArea .deep_logo {
+	display: block;
+	width: 140px;
+	height: 142px;
+	margin: 0 auto 20px;
+}
+
+.logoArea p {
+	text-align: center;
+	color: #999;
+	font-size: 16px;
+}
+
+.logoArea .deep_tit {
+	color: #333;
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.btnArea {
+	background: #f2f2f2;
+	height: 48%;
+	padding-top: 50px;
+}
+
+.btnArea a {
+	font-family: SECRobotoLR, Sans-Serif, Arial;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	display: block;
+	border-radius: 8px;
+	height: 50px;
+	margin: 0 auto 30px;
+	padding-top: 11px;
+	border: 2px solid #fff;
+}
+
+.btnArea a.and_down {
+	background: #fc8b6c;
+	width: 220px;
+}
+
+.btnArea a.ios_down {
+	background: #999;
+	width: 160px;
+}
+
+@media only screen and (max-width:480px) {
+	.logoArea .deep_logo {
+		width: 120px;
+		height: 121.71px;
+	}
+	.btnArea {
+		padding-top: 40px;
+	}
+	.btnArea a {
+		margin: 0 auto 20px;
+	}
+}
+
+@media only screen and (max-width:360px) {
+	.logoArea {
+		height: 55%;
+	}
+	.logoArea .deep_logo {
+		width: 100px;
+		height: 101.43px;
+		margin: 0 auto 15px;
+	}
+	.btnArea {
+		height: 45%;
+		padding-top: 30px;
+	}
+}
